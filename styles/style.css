@@ -30,6 +30,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
 /* Header */
 .header {
   background-color: #66D1FF;
