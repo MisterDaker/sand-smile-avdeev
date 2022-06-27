@@ -27,7 +27,11 @@
        url('../fonts/oswald-v48-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* Common */
+* {
+  box-sizing: border-box;
+}
 body {
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 .container {
@@ -37,7 +41,13 @@ body {
 }
 /* Header */
 .header {
+  padding: 30px 0;
   background-color: #66D1FF;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-btn {
   font-family: 'Montserrat', sans-serif;
@@ -55,6 +65,35 @@ body {
   color: #060D10;
 }
 /* Promo */
+.promo {
+  text-align: center;
+  color: #fff;
+  background-image: url('../images/background-mountain.jpg');
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-fade {
+  padding: 240px 0;
+  background-color: rgba(6, 13, 16, .25);
+}
+.promo-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
+.promo-text {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
 /* School-Info */
 /* Order */
 /* Footer */
