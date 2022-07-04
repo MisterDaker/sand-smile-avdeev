@@ -74,6 +74,21 @@ body {
   border: 2px solid #FFFFFF;
   border-radius: 4px;
 }
+.btn-transparent {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  color: #060D10;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #060D10;
+  border-radius: 4px;
+  margin: 60px;
+  padding-left: 108px;
+  padding-right: 107px;
+}
 .header-phone {
   font-family: 'Montserrat';
   font-weight: 500;
@@ -92,7 +107,8 @@ body {
   background-position: center;
 }
 .promo-fade {
-  padding: 240px 0;
+  padding-top: 240px;
+  padding-bottom: 260px;
   background-color: rgba(6, 13, 16, .25);
 }
 .promo-title {
@@ -119,38 +135,44 @@ body {
   padding: 170px 0;
   background-color: rgba(102, 209, 255, .1);
 }
-.shool-title {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 167%;
-  color: #060D10;
-  text-align: center;
-  text-transform: uppercase;
-}
-.school-list {
-  display: flex;
-  flex-wrap: wrap;
+.school-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 85px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 167%;
+    color: #060D10;
+    text-align: center;
+    text-transform: uppercase;
 }
 .school-about {
-  flex-basis: 33%;
-  padding: 15px;
-  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .school-item {
+  flex-basis: 33.33%;
+  padding: 15px;
+}
+.school-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  padding: 25px 0px;
+  padding: 15px 0px;
   border-radius: 5px;
-  background-color: #fff;
 }
 .school-about-title {
+  text-transform: uppercase;
+  font-family: 'Oswald', 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
   font-size: 32px;
   line-height: 167%;
-  color: rgba(6, 13, 16, 1)
 }
 .school-about-text {
   margin-top: 25px;
@@ -159,4 +181,97 @@ body {
   line-height: 140%;
 }
 /* Order */
+.order {
+  text-align: center;
+}
+.order-fade {
+  padding-top: 170px;
+  padding-bottom: 180px;
+  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
+  mix-blend-mode: normal;
+}
+.order-title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.order-visual {
+  padding-top: 70px;
+  margin-bottom: -4px;
+  align-items: center;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.order-picture-left {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 0;
+  margin-right: 12px;
+}
+.order-picture {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.order-picture-right {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 0;
+  margin-left: 12px;
+}
+
 /* Footer */
+.footer {
+  padding-top: 38px;
+  padding-bottom: 39px;
+  background-color: #060D10;
+}
+.footer-join {
+  margin: 0;
+  padding-left: 64px;
+  padding-right: 45px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 167%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  margin: 0;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  margin-left: 15px;
+}
+
+.social-link {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
